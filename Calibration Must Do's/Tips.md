@@ -1,6 +1,6 @@
 ## Calibration Klipper
 
-- Download this calibration cube: <a href="https://makerworld.com/en/models/620292">Printables</a>
+- Download this calibration cube: <a href="https://makerworld.com/en/models/620292">Mnemonic3D</a>
 
 - Slice it and print it.
 
