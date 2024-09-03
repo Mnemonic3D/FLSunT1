@@ -1,7 +1,7 @@
 # Calibration for the T1 using my Modded print.cfg
 
 ## Extruder Rotation
-###This is a MUST do!
+### This is a MUST do!
 - Measure from the top of the teflon tube to 70mm on the filament and mark it with a marker (Don't use a dark filament)
 - Heat your filament to its lowest recommended temp
   
