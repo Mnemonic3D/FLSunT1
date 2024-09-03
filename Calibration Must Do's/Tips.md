@@ -4,7 +4,7 @@
 
 - Slice it and print it. The values ​​of this model are: X=20mm / Y=20mm.
 
-- If you notice a deviation in the measured dimensions, it's necessary to apply a correction.
+- If you notice a deviation in the measured dimensions, you can apply a correction by following directions below.
 
 - Go to your Web interface then select the `CONSOLE` tab.
 
