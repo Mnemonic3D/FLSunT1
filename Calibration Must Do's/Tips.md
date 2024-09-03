@@ -26,4 +26,4 @@
 
 - Wait for Klipper to restart.
 
-- Correction is now applied in your `printer.cfg` file. You can reprint your model to check new accuracy measurements
+- Correction is now applied in your `printer.cfg` file. You can reprint your model to check new accuracy measurements and make extra corrections if desired.
