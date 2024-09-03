@@ -4,13 +4,14 @@
 - This is a MUST do!
 - Measure from the top of the bowden to 70mm on the filament and mark it with a marker (Don't use a dark filament)
 - Heat your filament to its lowest recommended temp
-- 
+  
 - Go to your Web interface then select the `CONSOLE` tab.
 - Type G91 in the console then hit enter
 - Type G1 E70 F60
 - Wait!
 - The filament will start extruding out of the nozzle. It’ll take some time to complete the extrusion process.
 - Measure the remaining filament from the edge of the extruder to our 70mm mark. The value denotes your "Subsequent Mark Distance."
+
 - If your extruder is over-extruding, it would go beyond the 70mm mark so you will need to go into your printer.cfg and edit the rotation distance under [extruder] and raise the number by 0.5 and repeat until it is perfect meaning you don't need to change anything anymore, its dialed in or at least it begins to under extrude.
 - If the extruder is under-extruding, Use the following formula to get the "Actual Extruded Distance."
 - `actual_extrude_distance = <initial_mark_distance> - <subsequent_mark_distance>`
