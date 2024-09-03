@@ -1,5 +1,21 @@
 # Calibration for the T1 using my Modded printer.cfg
 
+## Bed Level
+- Go to your Web interface dashboard.
+- Scroll to `Macros`
+- Click on `Bed Level 1`
+- Wait for it to finish and restart twice.
+- Click on `Bed Level 2`
+- Wait for it to finish and restart
+- Done! with new improved bed level!
+
+## Resonances
+- Go to your Web interface dashboard.
+- Scroll to `Macros`
+- Click on `Measuring Resonances`
+- Wait for it to finish and restart
+- Done! with more accurate resonances!
+
 ## Extruder Rotation
 ### This is a MUST do!
 - Measure from the top of the teflon tube to 70mm on the filament and mark it with a marker (Don't use a dark filament)
