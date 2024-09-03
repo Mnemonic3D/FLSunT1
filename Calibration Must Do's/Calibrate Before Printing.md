@@ -2,6 +2,11 @@
 
 ## Extruder Rotation
 - This is a MUST do!
+- Measure from the top of the bowden to 70mm on the filament and mark it with a marker (Don't use a dark filament)
+- Go to your Web interface then select the `CONSOLE` tab.
+- type # G91 in the console, hit enter
+- 
+- 
 
 ## Dimensional Accuracy
 
