@@ -1,9 +1,9 @@
-## Calibration for the T1
+# Calibration for the T1
 
-# Extruder Rotation
+## Extruder Rotation
 - This is a MUST do!
 
-# Dimensional Accuracy
+## Dimensional Accuracy
 
 - Download this calibration cube: <a href="https://makerworld.com/en/models/620292">Mnemonic3D</a>
 
