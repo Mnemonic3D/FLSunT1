@@ -6,9 +6,9 @@
 - Heat your filament to its lowest recommended temp
   
 - Go to your Web interface then select the `CONSOLE` tab.
-- Type G91
+- Type `G91`
 - Hit enter
-- Type G1 E70 F60
+- Type `G1 E70 F60`
 - Hit enter
 - Wait!
 - The filament will start extruding out of the nozzle. It’ll take some time to complete the extrusion process.
@@ -17,7 +17,8 @@
 - If your extruder is over-extruding, it would go beyond the 70mm mark so you will need to go into your printer.cfg and edit the rotation distance under [extruder] and raise the number by 0.5 and repeat until it is perfect meaning you don't need to change anything anymore, its dialed in or at least it begins to under extrude.
 - If the extruder is under-extruding, Use the following formula to get the "Actual Extruded Distance."
 - `actual_extrude_distance = <initial_mark_distance> - <subsequent_mark_distance>`
-- 
+- Use the following formula to calculate the rotation distance for your extruder. You can get the previous rotation distance from the printer.cfg file, under the extruder section.
+- `rotation_distance = "previous_rotation_distance" * "actual_extrusion distance" / "requested_extrusion distance"`
 
 ## Dimensional Accuracy
 
