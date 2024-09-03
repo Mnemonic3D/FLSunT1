@@ -2,7 +2,7 @@
 
 ## Extruder Rotation
 - This is a MUST do!
-- Measure from the top of the bowden to 70mm on the filament and mark it with a marker (Don't use a dark filament)
+- Measure from the top of the bowden tube to 70mm on the filament and mark it with a marker (Don't use a dark filament)
 - Heat your filament to its lowest recommended temp
   
 - Go to your Web interface then select the `CONSOLE` tab.
