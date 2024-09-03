@@ -1,4 +1,4 @@
-# Calibration for the T1
+# Calibration for the T1 using my Modded print.cfg
 
 ## Extruder Rotation
 - This is a MUST do!
