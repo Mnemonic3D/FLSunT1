@@ -35,7 +35,7 @@
 - `actual_extrude_distance = <initial_mark_distance> - <subsequent_mark_distance>`
 - Use the following formula to calculate the rotation distance for your extruder. You can get the previous rotation distance from the printer.cfg file, under the [extruder] section.
 - `rotation_distance = "previous_rotation_distance" * "actual_extrusion distance" / "requested_extrusion distance"`
-- Input the new rotation distance value in Klipper unde [extruder] rotation distance.
+- Input the new rotation distance value in Klipper under [extruder] rotation distance.
 
 - That’s it! You’ve successfully calibrated the rotation distance value for your extruder motor
 
