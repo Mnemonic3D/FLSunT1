@@ -6,8 +6,10 @@
 - Heat your filament to its lowest recommended temp
   
 - Go to your Web interface then select the `CONSOLE` tab.
-- Type G91 in the console then hit enter
+- Type G91
+- Hit enter
 - Type G1 E70 F60
+- Hit enter
 - Wait!
 - The filament will start extruding out of the nozzle. It’ll take some time to complete the extrusion process.
 - Measure the remaining filament from the edge of the extruder to our 70mm mark. The value denotes your "Subsequent Mark Distance."
