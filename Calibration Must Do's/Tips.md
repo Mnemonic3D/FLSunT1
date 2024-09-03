@@ -2,9 +2,7 @@
 
 - Download this calibration cube: <a href="https://makerworld.com/en/models/620292">Mnemonic3D</a>
 
-- Slice it and print it.
-
-- Once printed, measure the X and Y dimensions. The values ​​of this model are: X=20mm / Y=20mm.
+- Slice it and print it. The values ​​of this model are: X=20mm / Y=20mm.
 
 - If you notice a deviation in the measured dimensions, it's necessary to apply a correction.
 
