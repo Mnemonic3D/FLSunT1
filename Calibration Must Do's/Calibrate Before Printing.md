@@ -17,8 +17,11 @@
 - If your extruder is over-extruding, it would go beyond the 70mm mark so you will need to go into your printer.cfg and edit the rotation distance under [extruder] and raise the number by 0.5 and repeat until it is perfect meaning you don't need to change anything anymore, its dialed in or at least it begins to under extrude.
 - If the extruder is under-extruding, Use the following formula to get the "Actual Extruded Distance."
 - `actual_extrude_distance = <initial_mark_distance> - <subsequent_mark_distance>`
-- Use the following formula to calculate the rotation distance for your extruder. You can get the previous rotation distance from the printer.cfg file, under the extruder section.
+- Use the following formula to calculate the rotation distance for your extruder. You can get the previous rotation distance from the printer.cfg file, under the [extruder] section.
 - `rotation_distance = "previous_rotation_distance" * "actual_extrusion distance" / "requested_extrusion distance"`
+- Input the new rotation distance value in Klipper unde [extruder] rotation distance.
+
+- That’s it! You’ve successfully calibrated the rotation distance value for your extruder motor
 
 ## Dimensional Accuracy
 
