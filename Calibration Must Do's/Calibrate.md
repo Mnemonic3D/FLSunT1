@@ -66,7 +66,7 @@
 - When done run the `SAVE_CONFIG` command and the new PID settings will be saved to the printer config file
 ## Now for the Bed
 - Set all fans to 100%
-- Set Nozzle & Bed Heat Target to `0` and let cool down to its maximum ability (Preferably below 50c)
+- Set Nozzle & Bed Heat Target to `0` and let cool down to its maximum ability (Preferably 40c - 50c)
 - Once the temp has lowered as much as you think it can
 - Run the `PID_CALIBRATE HEATER=heater_bed TARGET=60` command to start the PID tuning process and wait for it to be completed.
 - When done run the  `SAVE_CONFIG` command and the new PID settings will be saved to the printer config file.
