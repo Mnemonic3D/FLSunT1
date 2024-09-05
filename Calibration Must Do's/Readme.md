@@ -66,6 +66,7 @@
 ## Top surface Flow Rate:
 This flow rate should change only your top surface flow rate in your print settings, not the flow rate in your filament settings.
 - Just use the built-in slicer calibration tool `Pass 2` only and a default value of `1` for the setting in the filament profile and make adjustments from there.
+- Example: Flow rate of -5 shows the best surface, change your top flow rate to 0.95 while leaving the filament flow rate alone.
 
 ## Pressure Advance
 - You can use the slicer calibration tool but its not as accurate as my profiles in the PA folder.
