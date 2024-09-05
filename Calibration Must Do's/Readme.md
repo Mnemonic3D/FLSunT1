@@ -1,5 +1,5 @@
 # Calibration for the T1 using my Modded printer.cfg
-## I Only Use Orca Slicer now.
+## I ONLY USE ORCA SLICER NOW
 
 # IMPORTANT PRIORITY
 ## PID TUNING
