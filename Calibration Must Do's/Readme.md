@@ -60,7 +60,7 @@
 
 - That’s it! You’ve successfully calibrated the rotation distance value for your extruder motor
 
-## Flow Rate
+## Top surface Flow Rate: this flow rate should change only your top surface flow rate in your print settings, not the flow rate in your filament settings.
 - Just use the built-in slicer calibration tool `Pass 2` only and a default value of `1` for the setting in the filament profile and make adjustments from there.
 
 ## Pressure Advance
