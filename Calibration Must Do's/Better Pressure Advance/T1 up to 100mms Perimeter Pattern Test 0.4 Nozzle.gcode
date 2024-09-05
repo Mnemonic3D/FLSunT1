@@ -1,13 +1,3 @@
-
-; ### Ellis' Pressure Advance / Linear Advance Calibration Tool ###
-;
-; Original Marlin linear advance calibration tool by Sineos [https://github.com/Sineos]
-; Heavily modified/rewritten by Andrew Ellis [https://github.com/AndrewEllis93]
-;
-; -------------------------------------------
-; Generated: Thu Sep 05 2024 11:42:35 GMT-0400 (Eastern Daylight Time)
-; -------------------------------------------
-;
 ; Advanced Mode: false
 ;
 ; Printer:
