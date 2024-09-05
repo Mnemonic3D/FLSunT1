@@ -51,17 +51,17 @@
 
 - If you notice a deviation in X, enter this command by replacing `**`  by your measured value in X (Note: T is the expected value):
 
-  ```
-  M101 X** T20
-  ```
+ 
+  `M101 X** T20`
+
 
 - Wait for Klipper to restart.
 
 - If you notice a deviation in Y, enter this command by replacing `**`  by your measured value in Y (Note: T is the expected value):
  
-  ```
-  M101 Y** T20
-  ```
+ 
+  `M101 Y** T20`
+
 
 - Wait for Klipper to restart.
 
