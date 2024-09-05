@@ -1,11 +1,13 @@
 # Calibration for the T1 using my Modded printer.cfg
 ## I ONLY USE ORCA SLICER NOW
 `
+
 # IMPORTANT PRIORITY
 ## PID Tuning
 - Ensure that the hotend and heatbed are at room temperature
 - If the hotend has a silicone sock protection for the heatblock, ensure that it’s installed
 - If your printer has a magnetic flex plate, ensure that it’s installed
+
 `
 ## Calibrating Hot End and Hot Bed PID
 ## Hot End
@@ -20,6 +22,7 @@
 - Once the temp has lowered as much as you think it can
 - Run the `PID_CALIBRATE HEATER=heater_bed TARGET=60` command to start the PID tuning process and wait for it to be completed.
 - When done run the  `SAVE_CONFIG` command and the new PID settings will be saved to the printer config file.
+
 `
 # CALIBRATIONS AFTER PID
 ## Bed Level
