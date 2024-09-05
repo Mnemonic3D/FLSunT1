@@ -66,3 +66,17 @@
 - Wait for Klipper to restart.
 
 - Correction is now applied in your `printer.cfg` file. You can reprint your model to check new accuracy measurements and make extra corrections if desired.
+
+# IMPORTANT BUT NOT PRIORITY
+## PID TUNING
+- Ensure that the hotend and heatbed are at room temperature
+- If the hotend has a silicone sock protection for the heatblock, ensure that it’s installed
+- If your printer has a magnetic flex plate, ensure that it’s installed
+
+## Calibrating PID
+
+- Home the printer and adjust the nozzle position to sit in the middle of the bed, with about 5cm of clearance to the bed.
+- Set the heatbed temperature to 60C
+- Turn on all fans to 100%
+- Run command in the console `PID_CALIBRATE HEATER=extruder TARGET=215` to start the PID tuning process and wait for it to be completed.
+- When done run the `SAVE_CONFIG` command and the new PID settings will be saved to the printer config file. 
