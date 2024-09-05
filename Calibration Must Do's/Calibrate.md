@@ -73,10 +73,16 @@
 - If the hotend has a silicone sock protection for the heatblock, ensure that it’s installed
 - If your printer has a magnetic flex plate, ensure that it’s installed
 
-## Calibrating PID
+## Calibrating Hot End and Hot Bed PID
 
+## Hot End
 - Home the printer and adjust the nozzle position to sit in the middle of the bed, with about 5cm of clearance to the bed.
 - Set the heatbed temperature to 60C
 - Turn on all fans to 100%
 - Run command in the console `PID_CALIBRATE HEATER=extruder TARGET=215` to start the PID tuning process and wait for it to be completed.
-- When done run the `SAVE_CONFIG` command and the new PID settings will be saved to the printer config file. 
+- When done run the `SAVE_CONFIG` command and the new PID settings will be saved to the printer config file
+## Now for the Bed
+- Set Nozzle & Bed Heat Target to `0` and let cool down to its maximum ability (Preferably below 50c)
+- Once the temp has lowered as much as you think it can
+- Run the `PID_CALIBRATE HEATER=heater_bed TARGET=60` command to start the PID tuning process and wait for it to be completed.
+- When done run the  `SAVE_CONFIG` command and the new PID settings will be saved to the printer config file.
