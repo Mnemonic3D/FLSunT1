@@ -61,7 +61,7 @@
 - That’s it! You’ve successfully calibrated the rotation distance value for your extruder motor
 
 ## Flow Rate
-- Just use the built-in slicer calibration tool `Pass 2` only and a default value of `1` for the setting in the filament profile.
+- Just use the built-in slicer calibration tool `Pass 2` only and a default value of `1` for the setting in the filament profile and make adjustments from there.
 
 ## Pressure Advance
 - You can use the slicer calibration tool but its not as accurate as my profiles in the PA folder.
