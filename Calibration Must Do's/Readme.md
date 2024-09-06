@@ -10,7 +10,7 @@
 
 `
 ## Calibrating Hot End and Hot Bed PID
-## Hot End
+## Hot End (Should be done every nozzle change)
 - Home the printer and adjust the nozzle position to sit in the middle of the bed, with about 5cm of clearance to the bed.
 - Set the heatbed temperature to 60C
 - Turn on all fans to 100%
