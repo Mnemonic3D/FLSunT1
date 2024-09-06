@@ -7,6 +7,7 @@
 - Ensure that the hotend and heatbed are at room temperature (30-50c)
 - If the hotend has a silicone sock protection for the heatblock, ensure that it’s installed
 - If your printer has a magnetic flex plate, ensure that it’s installed
+- Enter  `TURN_OFF_HEATERS` in console
 
 `
 ## Calibrating Hot End and Hot Bed PID
