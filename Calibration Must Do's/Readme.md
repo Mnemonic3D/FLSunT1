@@ -4,7 +4,7 @@
 
 # IMPORTANT PRIORITY
 ## PID Tuning
-- Ensure that the hotend and heatbed are at room temperature (Best to start when machine has been off a few hours)
+- Ensure that the hotend and heatbed are at room temperature (30-50c)
 - If the hotend has a silicone sock protection for the heatblock, ensure that it’s installed
 - If your printer has a magnetic flex plate, ensure that it’s installed
 
