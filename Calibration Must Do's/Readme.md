@@ -2,7 +2,7 @@
 ## I ONLY USE ORCA SLICER NOW
 `
 
-# IMPORTANT PRIORITY
+# IMPORTANT PRIORITY (Skip if your machine is unable to for some unknown reason some are having)
 ## PID Tuning
 - Ensure that the hotend and heatbed are at room temperature (30-50c)
 - If the hotend has a silicone sock protection for the heatblock, ensure that it’s installed
