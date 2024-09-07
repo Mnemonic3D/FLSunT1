@@ -1,6 +1,5 @@
 # Calibration for the T1 using my Modded printer.cfg
 ## I ONLY USE ORCA SLICER NOW
-`
 
 # IMPORTANT PRIORITY 
 ### (Skip if your machine is unable, for some unknown reason there are some people are having issues)
@@ -10,7 +9,6 @@
 - If your printer has a magnetic flex plate, ensure that it’s installed
 - Enter  `TURN_OFF_HEATERS` in console
 
-`
 ## Calibrating Hot End and Hot Bed PID
 ### Hot Bed (This will take significantly longer than the Hot End so be patient)
 - Set all fans to 100%
@@ -25,7 +23,6 @@
 - Run command in the console `PID_CALIBRATE HEATER=extruder TARGET=215` to start the PID tuning process and wait for it to be completed.
 - When done run the `SAVE_CONFIG` command and the new PID settings will be saved to the printer config file
 
-`
 # CALIBRATIONS AFTER PID
 ## Bed Level
 - Go to your Web interface dashboard.
@@ -75,7 +72,8 @@
 
 ### Pressure Advance
 - You can use the slicer calibration pattern tool 0.015 - 0.045 with steps 0.001.
-
+- Look for any gaps in the corners and find where it stops lets say 0.31 set your PA in filament settings to 0.31
+- save and done!
   
 ### Dimensional Accuracy
 
