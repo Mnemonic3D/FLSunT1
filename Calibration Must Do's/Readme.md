@@ -3,20 +3,20 @@
 
 # IMPORTANT PRIORITY 
 ### (Skip if your machine is unable, for some unknown reason there are some people are having issues)
-## PID Tuning
+# PID Tuning
 - Ensure that the hotend and heatbed are at room temperature (30-50c)
 - If the hotend has a silicone sock protection for the heatblock, ensure that it’s installed
 - If your printer has a magnetic flex plate, ensure that it’s installed
 - Enter  `TURN_OFF_HEATERS` in console
 
-## Calibrating Hot End and Hot Bed PID
-### Hot Bed (This will take significantly longer than the Hot End so be patient)
+# Calibrating Hot End and Hot Bed PID
+## Hot Bed (This will take significantly longer than the Hot End so be patient)
 - Set all fans to 100%
 - Set Nozzle & Bed Heat Target to `0` and let cool down to its maximum ability (Preferably 40c - 50c)
 - Once the temp has lowered as much as you think it can
 - Run the `PID_CALIBRATE HEATER=heater_bed TARGET=60` command to start the PID tuning process and wait for it to be completed.
 - When done run the  `SAVE_CONFIG` command and the new PID settings will be saved to the printer config file.
-### Hot End (Should be done every nozzle change)
+## Hot End (Should be done every nozzle change)
 - Home the printer and adjust the nozzle position to sit in the middle of the bed, with about 5cm of clearance to the bed.
 - Set the heatbed temperature to 60C
 - Turn on all fans to 100%
@@ -62,7 +62,7 @@
 
 - That’s it! You’ve successfully calibrated the rotation distance value for your extruder motor
 
-### Flow Rate: Default 1 & 1 in print settings and 0.98 in filament settings
+## Flow Rate: Default 1 & 1 in print settings and 0.98 in filament settings
 ### Top & Bottom Flow Rate
 #### This flow rate should change only your top and bottom surface flow rate in your print settings, not the flow rate in your filament settings.
 - Just use the built-in slicer calibration tool `Pass 1` find most acceptable settings, adjust top bottom flow rate in print settings
@@ -70,13 +70,13 @@
 - Done!
 - Example: Flow rate of -5 shows the best surface, change your top flow and bottom flow rate to 0.95 while leaving the filament flow rate alone.
 
-### Pressure Advance
+## Pressure Advance
 #### This needs to be done for every filament type
 - You can use the slicer calibration pattern tool 0.015 - 0.045 with steps 0.001.
 - Look for any gaps in the corners and find where it stops lets say 0.31 set your PA in filament settings to 0.31
 - save and done!
   
-### Dimensional Accuracy
+## Dimensional Accuracy
 
 - Download this calibration cube: <a href="https://makerworld.com/en/models/620292">Mnemonic3D</a>
 - Slice it and print it. The values ​​of this model are: X=20mm / Y=20mm.
