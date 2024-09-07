@@ -2,7 +2,8 @@
 ## I ONLY USE ORCA SLICER NOW
 `
 
-# IMPORTANT PRIORITY (Skip if your machine is unable to for some unknown reason some are having)
+# IMPORTANT PRIORITY 
+###(Skip if your machine is unable, for some unknown reason some people are having issues)
 ## PID Tuning
 - Ensure that the hotend and heatbed are at room temperature (30-50c)
 - If the hotend has a silicone sock protection for the heatblock, ensure that it’s installed
@@ -70,7 +71,7 @@ This flow rate should change only your top surface flow rate in your print setti
 - Example: Flow rate of -5 shows the best surface, change your top flow rate to 0.95 while leaving the filament flow rate alone.
 
 ### Pressure Advance
-- You can use the slicer calibration tool but its not as accurate as my profiles in the PA folder.
+- You can use the slicer calibration pattern tool 0.015 - 0.045 with steps 0.001.
 
   
 ### Dimensional Accuracy
