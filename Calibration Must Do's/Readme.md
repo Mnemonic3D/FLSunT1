@@ -3,7 +3,7 @@
 `
 
 # IMPORTANT PRIORITY 
-### (Skip if your machine is unable, for some unknown reason some people are having issues)
+### (Skip if your machine is unable, for some unknown reason there are some people are having issues)
 ## PID Tuning
 - Ensure that the hotend and heatbed are at room temperature (30-50c)
 - If the hotend has a silicone sock protection for the heatblock, ensure that it’s installed
