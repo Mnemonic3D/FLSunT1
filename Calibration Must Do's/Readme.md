@@ -67,7 +67,9 @@
 
 ### Flow Rate: Default 0.98 in filament settings
 #### This flow rate should change only your top and bottom surface flow rate in your print settings, not the flow rate in your filament settings.
-- Just use the built-in slicer calibration tool `Pass 1` find most acceptable settings, then `Pass 2` and find settings and change print setting top and bottom flow rate, change filament profile back to default 0.98.
+- Just use the built-in slicer calibration tool `Pass 1` find most acceptable settings, adjust top bottom flow rate in print settings
+- Now after adjustments made do `Pass 2` and find settings and change print setting top and bottom flow rate in print settings
+- Done!
 - Example: Flow rate of -5 shows the best surface, change your top flow and bottom flow rate to 0.95 while leaving the filament flow rate alone.
 
 ### Pressure Advance
