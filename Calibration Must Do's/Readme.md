@@ -65,7 +65,7 @@
 
 - That’s it! You’ve successfully calibrated the rotation distance value for your extruder motor
 
-### Flow Rate: Default 0.98 in filament settings
+### Flow Rate: Default 1 & 1 in print settings and 0.98 in filament settings
 #### This flow rate should change only your top and bottom surface flow rate in your print settings, not the flow rate in your filament settings.
 - Just use the built-in slicer calibration tool `Pass 1` find most acceptable settings, adjust top bottom flow rate in print settings
 - Now after adjustments made do `Pass 2` and find settings and change print setting top and bottom flow rate in print settings
