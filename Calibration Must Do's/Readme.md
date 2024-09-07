@@ -71,6 +71,7 @@
 - Example: Flow rate of -5 shows the best surface, change your top flow and bottom flow rate to 0.95 while leaving the filament flow rate alone.
 
 ### Pressure Advance
+#### This needs to be done for every filament type
 - You can use the slicer calibration pattern tool 0.015 - 0.045 with steps 0.001.
 - Look for any gaps in the corners and find where it stops lets say 0.31 set your PA in filament settings to 0.31
 - save and done!
