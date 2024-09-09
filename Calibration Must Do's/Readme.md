@@ -28,10 +28,10 @@
 - Go to your Web interface dashboard.
 - Scroll to `Macros`
 - Click on `Bed Level 1`
-- Wait for it to finish and restart twice.
+- Wait for it to finish and restart.
 - Click on `Bed Level 2`
 - Wait for it to finish and restart
-- Done! with new improved bed level!
+- Done! with new improved bed level, you can compare it to the stock bed level to see!
 
 ## Resonances
 - Go to your Web interface dashboard.
